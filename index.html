@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="boxForm">
+        <h1>Форма обратной связи</h1>
+        <form action="/include/db.php" method="post">
+
+            <div class="inputField">
+                <label for="nameField">Имя пользователя</label>
+                <input class="inputText" type="text" name="name" id="nameField" required>
+            </div>
+        
+            <div class="inputField">
+                <label for="phoneField">Телефон</label>
+                <input class="inputText" type="text" name="phone" id="phoneField" required>
+            </div>
+        
+            <div class="inputField">
+                <label for="e-mailField">E-mail</label>
+                <input class="inputText" type="text" name="email" id="e-mailField" required>
+            </div>
+        
+            <div class="inputField">
+                <label for="message_Field">Текст сообщения</label>
+                <input class="inputText" type="text" name="message" id="messageField" required>
+            </div>
+        
+            <input class="inputButton" type="submit" value="Отправить" id="myButton">
+        </form>
+        </div>
+</body>
+</html>

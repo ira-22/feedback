@@ -1,0 +1,44 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+
+.boxForm {
+    width: 30em;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.inputField {
+    margin-bottom: 1rem;
+}
+
+.inputText {
+    display: block;
+    padding: 5px;
+    color: black;
+}
+
+.textarea {
+    display: inline-block;
+    margin: 10px auto;
+    border: 2px solid #000;
+    padding: 10px 20px;
+    font-size: 16px; 
+}
+
+.inputButton {
+    padding: 5px 10px;
+}
+
+label {
+    display: block;
+}
